@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        SERVER_IP      = '54.176.80.202'
+        SERVER_IP      = '52.53.180.162'
         SSH_CREDENTIAL = 'node-app-key'
         REPO_URL       = 'https://github.com/Pramod581/node-js-app-CICD.git'
         BRANCH         = 'main'
